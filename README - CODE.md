@@ -22,6 +22,10 @@ Aqui, detalho o funcionamento do código e como as conexões funcionam. Para sab
 
 
 
+**-------------------------------------- PRÓXIMAS VERSÕES -----------------------------------------------------**
+
+
+
 As funções do **LED** e do **RESISTOR** vão passar por mudanças, no quesito de adaptabilidade, que virão na **v0.2**
 
 
@@ -30,7 +34,11 @@ Está previsto a chegada de novos componentes **POTENCIÔMETRO, BOTÃO, BUZZER, 
 
 
 
-**-------------------------------------- ARQUITETURA ---------------------------------------------------------**
+A função **Sub loop()** será implementada na **v0.3**
+
+
+
+**-------------------------------------- ARQUITETURA ----------------------------------------------------------**
 
 
 
@@ -58,7 +66,7 @@ A ordem do código está completamente ligada ao programador, se ele não coloca
 
 
 
-Ex: 
+Ex: Para fazer o **ARDUINO** ligar um **LED**, primeiro, faça o **ARDUINO** ligar o pino digital correspondente e somente **DEPOIS**, coloque a função que atualiza o **LED**
 
 
 
